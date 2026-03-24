@@ -7,8 +7,12 @@ public class stringBulder {
             char ch = ((char) ('a' + i));
             builder.append(ch);
         }
+        String a = "one";
+        String b = "two";
             System.out.println(builder.toString());
         builder.deleteCharAt(2);
+        System.out.println(builder);
+        builder.append(a).append(b).toString();
         System.out.println(builder);
         }
 }
